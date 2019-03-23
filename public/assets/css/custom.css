@@ -1,0 +1,100 @@
+body 								{ font-family: 'Roboto', sans-serif; overflow-x: hidden;/* padding-bottom:450px;*/ }
+h1, h2, h3, h4, h5, p 				{ margin:0px; padding:0px; }
+ol, ul 								{ list-style:none; margin:0px; padding:0px; }
+img     							{ max-width:100%; }
+::-webkit-scrollbar 									{ width:4px; height: 4px; }
+::-webkit-scrollbar-thumb 								{ background: #666; border-radius:0px; }
+::-moz-scrollbar 										{ width:4px; height: 4px; }
+::-moz-scrollbar-thumb 									{ background: #666; border-radius:0px; }
+
+header 	{ width:100%; padding:10px 0px; background:#222222; }
+header .setting { color:#fff; font-size:15px; margin-right:5px; padding:5px; background:#3f87c7; display:block; border-radius:50%; width:30px; height:30px; text-align:center; }
+header h1 { font-size:20px; color:#fff; padding-left:10px; font-weight:600; padding-top:3px; }
+.pf_view { width:100%; background:#3f87c7; padding:0px 0px 0px 0px; }
+.user_icon { font-size:24px; float:left; color:#fff; width:60px; height:60px; margin:15px 5px 15px 0px; background:#222222; text-align:center; border-radius:50%; padding-top:12px; }
+.pfv_left h3{ padding-top:35px; color:#fff; font-size:16px; }
+
+.user_tab li { display:inline-block; width:31%; float:left; margin:0 1%; }
+.user_tab li a { display:inline-block; border-radius:5px; margin-top:12px; position:relative; padding:20px 20px; color:#000; background:#d8edf8; font-size:18px; width:100%; text-align:center; }
+.user_tab li.active a:before { content:""; width:100%; height:20px; background:#d8edf8; position:absolute; left:0px; bottom:-15px; }
+
+.user_tab.nav>li>a:focus, .user_tab.nav>li>a:hover {
+    text-decoration: none;
+    background-color: #d8edf8;
+}
+
+
+.pf_serch { width:100%; padding:15px 0px; background:#d8edf8; }
+.my_pad { padding:0px 5px; }
+.sr_h4 { padding-top:7px; font-weight:600; }
+.form-control { height: 36px; }
+.pf_serch .btn-default {
+    color: #fff;
+    background-color: #abbbc4;
+    border-color: #abbbc4;
+    font-size: 20px;
+    height: 36px;
+    padding: 0px 19px;
+}
+.pf_serch .form-group { margin-bottom:0px; }
+
+
+.pf_con { background:#f5f5f5; min-height:600px; }
+
+.filter_com { padding:5px 0px; border-bottom:1px solid #b1b1b1; }
+.filter_com .form-group  { display:inline-block; margin:0px; }
+.fil_com_rig .form-group, .fil_com_rig .btn-group { margin-left:5px; }
+
+.uf_con_box { float:left; width:100%; overflow:hidden; padding:0px; width:100%; background:#fff; border-radius:5px; border:1px solid #d4d4d4; margin-top:20px;
+
+    -webkit-box-shadow:0px 0px 4px 0px #ddd;
+       -moz-box-shadow:0px 0px 4px 0px #ddd;
+            box-shadow:0px 0px 4px 0px #ddd;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    transition: .5s all;
+
+ }
+
+
+.ucn_h { width:100%; padding:7px 7px 7px 7px; border-bottom:1px solid #ddd; }
+.ucn_h ul li { display:inline-block; }
+.ucn_hi { width:30px; height:30px; background:#85bfa4; border-radius:50%; text-align:center; padding-top:5px; margin-right:5px; }
+.ucn_hi i { color:#fff; }
+.ucn_h h4 { font-size:16px; font-weight:600; }
+
+.ucn_c { padding:10px 10px 10px 10px; }
+.uf_con_box a { color:#333; float:left; width:100%; min-height:150px; }
+.uf_con_box a:hover, .uf_con_box a:focus { text-decoration:none; }
+.uf_con_box:hover .ucn_h h4 { color:#000; }
+.uf_con_box:hover { border:1px solid #3f87c7; -webkit-box-shadow:0px 0px 6px 0px #3f87c7;
+       -moz-box-shadow:0px 0px 6px 0px #3f87c7;
+            box-shadow:0px 0px 6px 0px #3f87c7;
+			
+	    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    transition: .5s all;		
+			 }
+.pf_con .tab-pane { float:left; width:100%; }
+.orange { background:#ff9800; }
+.green { background:#70b394; }
+.red { background:#f44336; }
+.yellow { background:#ffc107; }
+.blue { background:#2196f3; }
+.pink { background:#e91e63; }
+
+.pf_con .col-md-3 { padding:0px 10px; }
+.uf_con_box:hover .ucn_h { background:#eee; }
+.uf_con_box:hover{ background:#fff; }
+
+.grid_list_main.lest_active .col-md-3 { width:100%; }
+.pf_con .tab-pane{
+	
+}
+
+
+
+
+
